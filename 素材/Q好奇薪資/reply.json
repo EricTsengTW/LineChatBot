@@ -1,0 +1,30 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "挺好奇的",
+        "text": "挺好奇的",
+        "data": "curious_sal=rich_menu_0&tag=挺好奇的"
+      },
+      {
+        "type": "postback",
+        "label": "有一點",
+        "text": "有一點",
+        "data": "curious_sal=rich_menu_0&tag=有一點"
+      },
+      {
+        "type": "postback",
+        "label": "不會",
+        "text": "不會",
+        "data": "curious_sal=rich_menu_0&tag=不會"
+      }
+    ],
+    "text": "是否好奇目前各種職缺的薪資水平？"
+  }
+}
+]

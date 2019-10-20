@@ -1,0 +1,30 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "找工作中",
+        "text": "找工作中",
+        "data": "finding_job=Q履歷信心&tag=找工作中"
+      },
+      {
+        "type": "postback",
+        "label": "還不急",
+        "text": "還不急",
+        "data": "finding_job=Q履歷信心&tag=還不急"
+      },
+      {
+        "type": "postback",
+        "label": "沒有",
+        "text": "沒有",
+        "data": "finding_job=Q履歷信心&tag=沒有"
+      }
+    ],
+    "text": "你正在找工作了嗎？"
+  }
+}
+]

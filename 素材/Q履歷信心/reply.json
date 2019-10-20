@@ -1,0 +1,30 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "一定可以",
+        "text": "一定可以",
+        "data": "good_cv=Q照片信心&tag=一定可以"
+      },
+      {
+        "type": "postback",
+        "label": "希望...可以",
+        "text": "希望...可以",
+        "data": "good_cv=Q照片信心&tag=希望...可以"
+      },
+      {
+        "type": "postback",
+        "label": "不行",
+        "text": "不行",
+        "data": "good_cv=Q照片信心&tag=不行"
+      }
+    ],
+    "text": "你覺得你的履歷，能抓住面試官的眼光嗎？"
+  }
+}
+]

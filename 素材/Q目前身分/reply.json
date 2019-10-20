@@ -1,0 +1,40 @@
+[
+{
+  "type": "text",
+  "text": "我會盡我可能地協助你探索工作世界，但在開始之前，想請你簡單介紹自己，我才能了解該給你什麼資訊"
+},
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "在職工作者",
+        "text": "在職工作者",
+        "data": "character=Q滿意工作&tag=在職工作者"
+      },
+      {
+        "type": "postback",
+        "label": "應屆畢業生",
+        "text": "應屆畢業生",
+        "data": "character=Q找工作&tag=應屆畢業生"
+      },
+      {
+        "type": "postback",
+        "label": "學生",
+        "text": "學生",
+        "data": "character=Q找工作&tag=學生"
+      },
+      {
+        "type": "postback",
+        "label": "不告訴你",
+        "text": "不告訴你",
+        "data": "menu=rich_menu_0_1"
+      }
+    ],
+    "text": "請問您目前的身分是？"
+  }
+}
+]

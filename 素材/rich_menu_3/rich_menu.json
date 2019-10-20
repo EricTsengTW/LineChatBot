@@ -1,0 +1,83 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "功能選單",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 10,
+        "y": 0,
+        "width": 804,
+        "height": 844
+      },
+      "action": {
+        "type": "message",
+        "text": "職缺氣象"
+      }
+    },
+    {
+      "bounds": {
+        "x": 844,
+        "y": 0,
+        "width": 802,
+        "height": 844
+      },
+      "action": {
+        "type": "message",
+        "text": "產業趨勢"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1667,
+        "y": 0,
+        "width": 823,
+        "height": 844
+      },
+      "action": {
+        "type": "message",
+        "text": "薪資預測"
+      }
+    },
+    {
+      "bounds": {
+        "x": 10,
+        "y": 854,
+        "width": 803,
+        "height": 824
+      },
+      "action": {
+        "type": "message",
+        "text": "履歷關鍵字"
+      }
+    },
+    {
+      "bounds": {
+        "x": 833,
+        "y": 865,
+        "width": 824,
+        "height": 802
+      },
+      "action": {
+        "type": "message",
+        "text": "相由心生(大頭照判斷)"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1667,
+        "y": 844,
+        "width": 812,
+        "height": 812
+      },
+      "action": {
+        "type": "message",
+        "text": "面試捕手"
+      }
+    }
+  ]
+}

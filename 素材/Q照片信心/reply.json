@@ -1,0 +1,30 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "完美",
+        "text": "完美",
+        "data": "good_pic=Q交談信心&tag=完美"
+      },
+      {
+        "type": "postback",
+        "label": "不敢保證",
+        "text": "不敢保證",
+        "data": "good_pic=Q交談信心&tag=不敢保證"
+      },
+      {
+        "type": "postback",
+        "label": "沒什麼信心",
+        "text": "沒什麼信心",
+        "data": "good_pic=Q交談信心&tag=沒什麼信心"
+      }
+    ],
+    "text": "在履歷上的照片，你覺得自己選的不錯？"
+  }
+}    
+]

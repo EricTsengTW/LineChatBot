@@ -1,0 +1,30 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "很滿意",
+        "text": "很滿意",
+        "data": "satisfy_job=Q好奇薪資&tag=很滿意"
+      },
+      {
+        "type": "postback",
+        "label": "還行",
+        "text": "還行",
+        "data": "satisfy_job=Q好奇薪資&tag=還行"
+      },
+      {
+        "type": "postback",
+        "label": "不太滿意",
+        "text": "不太滿意",
+        "data": "satisfy_job=Q好奇薪資&tag=不太滿意"
+      }
+    ],
+    "text": "你滿意目前的工作嗎？"
+  }
+}
+]

@@ -1,0 +1,30 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "有自信",
+        "text": "有自信",
+        "data": "good_con=rich_menu_0&tag=有自信"
+      },
+      {
+        "type": "postback",
+        "label": "還好",
+        "text": "還好",
+        "data": "good_con=rich_menu_0&tag=還好"
+      },
+      {
+        "type": "postback",
+        "label": "不太有",
+        "text": "不太有",
+        "data": "good_con=rich_menu_0&tag=不太有"
+      }
+    ],
+    "text": "對於與人交談這件事，你是否充滿自信？"
+  }
+}
+]

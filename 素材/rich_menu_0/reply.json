@@ -1,0 +1,22 @@
+[
+{
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "message",
+        "label": "有建議嗎",
+        "text": "有建議嗎"
+      },
+      {
+        "type": "message",
+        "label": "功能說明",
+        "text": "功能說明"
+      }
+    ],
+    "text": "謝謝你和我說這麼多！以下是我所有的功能"
+  }
+}
+]
