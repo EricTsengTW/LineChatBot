@@ -13,14 +13,26 @@ services:
       - chatbot-net
     command: start.sh jupyter notebook --NotebookApp.token=''
   
-  serveo:
-    image: aeon33system/serveo-alpine:v1
-    container_name: chatbot_serveo
+#  serveo:
+#    image: aeon33system/serveo-alpine:v1
+#    container_name: chatbot_serveo
+#    tty: true
+#    stdin_open: true
+#    networks:
+#    - chatbot-net
+#    command: autossh -M 0 -R clublinechatbot.serveo.net:80:line-chat-bot-jupyter:5000 -o StrictHostKeyChecking=no serveo.net  # clublinechatbot.serveo.net <- modify it 
+
+  ngrok:
+    image: wernight/ngrok
+    container_name: chatbot_ngrok
     tty: true
     stdin_open: true
+    ports:
+      - "4040"
     networks:
-    - chatbot-net
-    command: autossh -M 0 -R clublinechatbot.serveo.net:80:line-chat-bot-jupyter:5000 -o StrictHostKeyChecking=no serveo.net  # clublinechatbot.serveo.net <- modify it 
+      - chatbot-net
+    command: ngrok http line-chat-bot-jupyter:5000
+
 networks:
   chatbot-net:
     
