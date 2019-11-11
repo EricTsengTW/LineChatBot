@@ -1,0 +1,156 @@
+[
+{
+  "type": "text",
+  "text": "職缺氣象分三部分，請選擇您需要的功能"
+},
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/international.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13107/sheet11"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "職缺分佈",
+              "size": "xl",
+              "align": "center",
+              "gravity": "center",
+              "weight": "bold",
+              "color": "#524D4D",
+              "action": {
+                "type": "uri",
+                "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13107/sheet11"
+              },
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "margin": "lg",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "顯示各地區的職缺數量",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/cv.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13152/sheet15"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "條件要求",
+              "size": "xl",
+              "align": "center",
+              "gravity": "center",
+              "weight": "bold",
+              "color": "#524D4D",
+              "action": {
+                "type": "uri",
+                "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13152/sheet15"
+              },
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "margin": "lg",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "履歷參考關鍵要點",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/salary.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13107/sheet19"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "薪資範圍",
+              "size": "xl",
+              "align": "center",
+              "gravity": "center",
+              "weight": "bold",
+              "color": "#524D4D",
+              "action": {
+                "type": "uri",
+                "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13107/sheet19"
+              },
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "margin": "lg",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "不同產業、年資的薪資幅度",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+]

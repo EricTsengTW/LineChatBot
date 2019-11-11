@@ -1,0 +1,191 @@
+[
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/5g.jpg",
+          "size": "xl",
+          "aspectRatio": "1:1",
+          "aspectMode": "cover",
+          "action": {
+            "type": "postback",
+            "label": "5G",
+            "text": "5G",
+            "data": "news=label_3&tag=5G"            
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "2019 | 資訊科技",
+              "align": "center",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "5G",
+              "size": "xl",
+              "align": "center",
+              "gravity": "center",
+              "weight": "bold",
+              "color": "#524D4D",
+              "action": {
+                "type": "postback",
+                "label": "5G",
+                "text": "5G",
+                "data": "news=label_3&tag=5G"            
+              },
+              "wrap": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/smarthouse.jpg",
+          "size": "xl",
+          "aspectRatio": "1:1",
+          "aspectMode": "cover",
+          "action": {
+            "type": "postback",
+            "label": "智慧產業",
+            "text": "智慧產業",
+            "data": "news=label_1&tag=智慧產業"            
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "2019 | 資訊科技",
+              "align": "center",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "智慧產業",
+              "size": "xl",
+              "align": "center",
+              "gravity": "center",
+              "weight": "bold",
+              "color": "#524D4D",
+              "action": {
+                "type": "postback",
+                "label": "智慧產業",
+                "text": "智慧產業",
+                "data": "news=label_1&tag=智慧產業"            
+              },
+              "wrap": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/smart-city.jpg",
+          "size": "xl",
+          "aspectRatio": "1:1",
+          "aspectMode": "cover",
+          "action": {
+            "type": "postback",
+            "label": "企業表現",
+            "text": "企業表現",
+            "data": "news=label_2&tag=企業表現"            
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "2019 | 資訊科技",
+              "align": "center",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "企業表現",
+              "size": "xl",
+              "align": "center",
+              "gravity": "center",
+              "weight": "bold",
+              "color": "#524D4D",
+              "action": {
+                "type": "postback",
+                "label": "企業表現",
+                "text": "企業表現",
+                "data": "news=label_2&tag=企業表現"            
+              },
+              "wrap": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/conflict.jpg",
+          "size": "xl",
+          "aspectRatio": "1:1",
+          "aspectMode": "cover",
+          "action": {
+            "type": "postback",
+            "label": "中美貿易",
+            "text": "中美貿易",
+            "data": "news=label_0&tag=中美貿易"            
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "2019 | 資訊科技",
+              "align": "center",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "中美貿易",
+              "size": "xl",
+              "align": "center",
+              "gravity": "center",
+              "weight": "bold",
+              "color": "#524D4D",
+              "action": {
+                "type": "postback",
+                "label": "中美貿易",
+                "text": "中美貿易",
+                "data": "news=label_0&tag=中美貿易"            
+              },
+              "wrap": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+]
