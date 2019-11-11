@@ -14,7 +14,7 @@
         "hero": {
           "type": "image",
           "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/international.jpg",
-          "size": "full",
+          "size": "xl",
           "aspectMode": "cover",
           "action": {
             "type": "uri",
@@ -61,7 +61,7 @@
         "hero": {
           "type": "image",
           "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/cv.jpg",
-          "size": "full",
+          "size": "xl",
           "aspectMode": "cover",
           "action": {
             "type": "uri",
@@ -108,7 +108,7 @@
         "hero": {
           "type": "image",
           "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/salary.jpg",
-          "size": "full",
+          "size": "xl",
           "aspectMode": "cover",
           "action": {
             "type": "uri",

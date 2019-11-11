@@ -6,3 +6,5 @@ RUN pip install pillow
 RUN pip install jieba
 RUN pip install scikit-learn
 RUN pip install pandas
+RUN pip install beautifulsoup4
+RUN pip install lxml
