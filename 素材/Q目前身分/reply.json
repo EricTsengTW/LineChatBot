@@ -31,7 +31,7 @@
         "type": "postback",
         "label": "不告訴你",
         "text": "不告訴你",
-        "data": "menu=rich_menu_0_1"
+        "data": "menu=rich_menu_0"
       }
     ],
     "text": "請問您目前的身分是？"
