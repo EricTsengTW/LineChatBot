@@ -2,4 +2,4 @@
 .DS_Store
 line_secret_key
 models/*.pickle
-
+images/*.jpg

@@ -1,0 +1,25 @@
+[{
+  "type": "text",
+  "text": "透過這個功能，我將和您進行模擬面試。\n我會詢問您幾個問題，在面試的過程中，我會蒐集您的姿態儀容與表情，最後提供建議。"
+},
+{
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "我了解了",
+        "text": "我了解了",
+        "data": "interview_q1=yes"
+      },
+      {
+        "type": "message",
+        "label": "取消",
+        "text": "取消"
+      }
+    ],
+    "text": "事前說明：閱讀問題後，請您面對攝影機，按下「開始！」，即可開始面談。當您面談結束時，請按下「面試結束」按鈕。"
+  }
+}]

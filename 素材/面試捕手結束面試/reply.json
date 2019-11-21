@@ -1,0 +1,62 @@
+[{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://et-storage-1.s3-ap-northeast-1.amazonaws.com/ICON/portfolio.png",
+      "size": "xl",
+      "aspectRatio": "1:1",
+      "aspectMode": "cover"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "md",
+      "contents": [
+        {
+          "type": "text",
+          "text": "面試捕手",
+          "size": "xl",
+          "align": "center",
+          "gravity": "center",
+          "weight": "bold",
+          "color": "#524D4D",
+          "wrap": true
+        },
+        {
+          "type": "text",
+          "text": "問題一",
+          "align": "center",
+          "weight": "bold"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "postback",
+                "label": "觀看結果",
+                "text": "觀看結果",
+                "data": "interview_feedback=yes"
+              },
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "postback",
+                "label": "重新面試",
+                "text": "重新面試",
+                "data": "interview_q1=yes"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}]

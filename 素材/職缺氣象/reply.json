@@ -18,7 +18,7 @@
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13107/sheet11"
+            "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/_V3/sheet11?publish=yes"
           }
         },
         "body": {
@@ -36,7 +36,7 @@
               "color": "#524D4D",
               "action": {
                 "type": "uri",
-                "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13107/sheet11"
+                "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/_V3/sheet11?publish=yes"
               },
               "wrap": true
             },
@@ -65,7 +65,7 @@
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13152/sheet15"
+            "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/_v2_15743140357640/sheet16?publish=yes"
           }
         },
         "body": {
@@ -83,7 +83,7 @@
               "color": "#524D4D",
               "action": {
                 "type": "uri",
-                "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13152/sheet15"
+                "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/_v2_15743140357640/sheet16?publish=yes"
               },
               "wrap": true
             },
@@ -112,7 +112,7 @@
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13107/sheet19"
+            "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/_V4/sheet19?publish=yes"
           }
         },
         "body": {
@@ -130,7 +130,7 @@
               "color": "#524D4D",
               "action": {
                 "type": "uri",
-                "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/13107/sheet19"
+                "uri": "https://public.tableau.com/profile/.81327627#!/vizhome/_V4/sheet19?publish=yes"
               },
               "wrap": true
             },

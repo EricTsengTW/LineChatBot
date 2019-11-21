@@ -8,3 +8,4 @@ RUN pip install scikit-learn
 RUN pip install pandas
 RUN pip install beautifulsoup4
 RUN pip install lxml
+RUN pip install requests

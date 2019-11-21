@@ -1,0 +1,64 @@
+[{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "direction": "ltr",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "面試捕手：問題一",
+          "margin": "md",
+          "size": "md",
+          "align": "center",
+          "weight": "bold"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "請用一分鐘的時間介紹自己",
+          "margin": "md",
+          "align": "center",
+          "weight": "bold",
+          "color": "#000000"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "開始！",
+            "text": "開始！",
+            "data": "interview_start=yes"
+          },
+          "margin": "md",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "面試結束",
+            "text": "面試結束",
+            "data": "interview_stop=yes"
+          },
+          "margin": "md",
+          "style": "secondary"
+        }
+      ]
+    }
+  }
+}]
