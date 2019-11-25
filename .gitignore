@@ -2,6 +2,3 @@
 .DS_Store
 line_secret_key
 models/*
-images/*
-user_message/*
-data/*
